@@ -1,8 +1,24 @@
-# csgo-practice_automation
-Download and extract mms, sm and practicemode plugin
+<h1>CSGO practice plugin automatic installation</h1>
 
-Automatic download of MetaMod Source, SourceMod and splewis's PracticeMode with static URLs.
+Automatic installation of the latest SourceMod, MetamodSource and Practise Mode Plugin releases for CS:GO server on Linux. 
 
+HOW TO USE:
+
+Navigate to correct CSGO server path ( The correct folder is second containing the cfg, maps, models folders and all the paks .vpk) and execute the following commands in the console:
+<b>
+1. "cd /home/steam/csgo/csgo/"
+2. "wget https://raw.githubusercontent.com/cryptozealot/csgo-practice-automation/master/build.sh"
+3. "chmod +x build.sh"
+4. "./build.sh"
+</b>
+
+Here's what the script does
+1. Get latest release filenames, so we can download them in step2
+2. Downloads latest compiled binaries builds
+3. Untars SourceMod and Metamod:Source and unzips Practice Mode Plugin
+4. Cleans up files
+
+Links:
 
 1. SourceMod Downloads: https://www.sourcemod.net/downloads.php?branch=stable
 Github : https://github.com/alliedmodders/sourcemod/tree/c5efe48aa3116d836ae9b9e475647d7
@@ -10,9 +26,5 @@ Github : https://github.com/alliedmodders/sourcemod/tree/c5efe48aa3116d836ae9b9e
 2. MetaMod:Source Downloads : https://metamodsource.net/downloads.php
 Github : https://github.com/alliedmodders/metamod-source/tree/63da1c34c537afae6dbf084fe088e60
     
-3. Practice Mod by splewis : https://github.com/splewis/csgo-practice-mode/releases
+3. Practice Mod by Splewis : https://github.com/splewis/csgo-practice-mode/releases
 Github : https://github.com/splewis/csgo-practice-mode/releases
-
-TODO:
-1. Get URLs with variables or some other clever way
-2. Rebuild and redeploy when new updates get pushed for SM, MMS or Practicemode
