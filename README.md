@@ -1,6 +1,6 @@
 <h1>CSGO practice plugin automatic installation</h1>
 
-Automatic installation of the latest SourceMod, MetamodSource and Practise Mode Plugin releases for CS:GO server on Linux. 
+Automatic installation of the latest SourceMod, MetamodSource and Practice Mode Plugin releases for CS:GO server on Linux. 
 
 HOW TO USE:
 
