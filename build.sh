@@ -27,4 +27,4 @@ rm README.md
 rm LICENSE
 
 # Copy admin config, do other configurations here.
-#cp /home/ubuntu/admins_simple.ini /home/ubuntu/steam/csgoserv/csgo/addons/sourcemod/config/
+#cp /home/ubuntu/admins_simple.ini /home/ubuntu/steam/csgoserv/csgo/addons/sourcemod/configs/
