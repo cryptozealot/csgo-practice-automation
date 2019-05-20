@@ -4,7 +4,6 @@
 # Example: /home/steam/csgoserver/csgo/ - (The folder containing bin, cfg, maps, materials, models etc.)
 # Copy the script to the folder and run it  ./build.sh
 
-
 # Get latest release filenames
 SMURL=$(curl https://sm.alliedmods.net/smdrop/1.9/sourcemod-latest-linux)
 MMURL=$(curl https://mms.alliedmods.net/mmsdrop/1.10/mmsource-latest-linux)
