@@ -4,7 +4,7 @@ Automatic installation of the latest SourceMod, MetamodSource and Practise Mode 
 
 HOW TO USE:
 
-Navigate to correct CSGO server path ( The correct folder is second containing the cfg, maps, models folders and all the paks .vpk) and execute the following commands in the console:
+Navigate to correct CSGO server path ( The correct folder is the second csgo folder, that contains the cfg, maps, models folders and all the .vpk packs ) and execute the following commands in the console:
 <b>
 1. "cd /home/steam/csgo/csgo/"
 2. "wget https://raw.githubusercontent.com/cryptozealot/csgo-practice-automation/master/build.sh"
@@ -13,7 +13,7 @@ Navigate to correct CSGO server path ( The correct folder is second containing t
 </b>
 
 Here's what the script does
-1. Get latest release filenames, so we can download them in step2
+1. Gets latest release filenames, so we can download them in step2
 2. Downloads latest compiled binaries builds
 3. Untars SourceMod and Metamod:Source and unzips Practice Mode Plugin
 4. Cleans up files
