@@ -25,7 +25,7 @@ Here's what the script does
 1. Copy update.sh in home directory and make it executable
 2. Copy mainstart.sh and start.sh in .../steam/csgo/ folder.
 3. Edit update.sh to set correct paths, first one is /home/steam/ and the second is /home/steam/csgo/ if using defaults.
-4. Execute update for one time update or add it to cron/hook for auto update. (If there is no new update, the script will validate game integrity)
+4. Execute update for one time update or add it to cron/hook for auto update. If there is no csgo server installed it will install it. If there is no new update, the script will validate game integrity.
 
 
 Links:
