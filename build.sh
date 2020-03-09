@@ -11,7 +11,7 @@ PRACURL=$(curl "https://github.com/splewis/csgo-practice-mode/releases/latest" |
 
 # Download latest builds
 wget https://mms.alliedmods.net/mmsdrop/1.10/$MMURL
-wget https://sm.alliedmods.net/smdrop/1.9/$SMURL
+wget https://sm.alliedmods.net/smdrop/1.10/$SMURL
 wget https://github.com/splewis/csgo-practice-mode/releases/download/1.3.3/practicemode_$PRACURL.zip
 
 # Untar and unzip archives
