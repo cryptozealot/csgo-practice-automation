@@ -5,7 +5,7 @@
 # Copy the script to the folder and run it  ./build.sh
 
 # Get latest release filenames
-SMURL=$(curl https://sm.alliedmods.net/smdrop/1.9/sourcemod-latest-linux)
+SMURL=$(curl https://sm.alliedmods.net/smdrop/1.10/sourcemod-latest-linux)
 MMURL=$(curl https://mms.alliedmods.net/mmsdrop/1.10/mmsource-latest-linux)
 PRACURL=$(curl "https://github.com/splewis/csgo-practice-mode/releases/latest" | sed 's#.*tag/\(.*\)\".*#\1#')
 
