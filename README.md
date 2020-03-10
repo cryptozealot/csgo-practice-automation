@@ -38,3 +38,7 @@ Github : https://github.com/alliedmodders/metamod-source/tree/63da1c34c537afae6d
     
 3. Practice Mod by Splewis : https://github.com/splewis/csgo-practice-mode/releases
 Github : https://github.com/splewis/csgo-practice-mode/releases
+
+
+## Latest successfull build 
+CSGO v1.37.4.4, practicemode_1.3.3.zip, mmsource-1.10.7-git971-linux.tar.gz, sourcemod-1.10.0-git6478-linux.tar.gz
