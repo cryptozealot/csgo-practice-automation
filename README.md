@@ -6,6 +6,8 @@ Automatic installation of the latest SourceMod, MetamodSource and Practice Mode 
 
 HOW TO USE:
 
+Prerequisite: Zip (apt install zip) or (yum install zip)
+
 Navigate to correct CSGO server path ( The correct folder is the second csgo folder, that contains the cfg, maps, models folders and all the .vpk packs ) and execute the following commands in the console:
 <b>
 1. "cd /home/steam/csgo/csgo/"
