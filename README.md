@@ -1,3 +1,6 @@
+TODO: Make a Github Actions Workflow to compile this and do release
+
+
 <h1>CSGO practice plugin automatic installation</h1>
 
 ####### build.sh ########
