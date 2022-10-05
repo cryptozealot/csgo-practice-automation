@@ -19,6 +19,12 @@ tar -zxvf $MMURL
 tar -zxvf $SMURL
 unzip practicemode_$PRACURL.zip
 
+
+#add-apt-repository multiverse
+#dpkg --add-architecture i386
+#apt-get update
+#apt-get install lib32gcc1 lib32stdc++6
+
 # Cleanup
 rm $MMURL
 rm $SMURL
